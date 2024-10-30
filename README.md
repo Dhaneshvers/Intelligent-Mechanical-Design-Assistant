@@ -62,15 +62,13 @@ streamlit run app.py
 ```
 **Note:** Replace `app.py` with the name of your main Python file
 # Usage
-1. Open the application in your web browser (usually at http://localhost:8501).
-   
-2. Load your PDF documents into the specified "book" directory.
+1. Load your PDF documents into the specified "book" directory.
 
-3. Enter your query in the input field.
+2. Enter your query in the input field.
 
-4. Click the "Document Embedding" button to prepare the vector database.
+3. Click the "Document Embedding" button to prepare the vector database.
 
-5. View the generated answer and associated metrics, including the BLEU score and various visualizations.
+4. View the generated answer and associated metrics, including the BLEU score and various visualizations.
 
 # Code Structure
 - **app.py:** Main application script.
